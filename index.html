@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Help Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="home">
+    <i class="fas fa-graduation-cap fa-3x" style="margin-bottom:1rem;"></i>
+    <h1>handwritten practical chahiye the na?</h1>
+    <p>So, From here! You can download maths and science class 10th handwritten practical PDF for 100% Free without even a AD</p>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <i class="fas fa-info-circle fa-2x" style="color:#4facfe;margin-bottom:1rem;"></i>
+      <h2>ye webapp kyu banaaya?</h2>
+      <p>brooooooo mere bhi exam hai is oct so mai apna practical bana rha tha then socha ki kyuna apna practical baki logo ko bhi dedu jiise easily bana sake apna practical without paying(wiase kuch mahaan teacher hahi jo 100-200 mai practical bech rhe unka dhandha band karwana tha as a mini devloper so i made this shit) </p>
+    </div>
+  </section>
+
+  <section id="maths">
+    <div class="card">
+      <i class="fas fa-square-root-alt fa-2x" style="color:#43e97b;margin-bottom:1rem;"></i>
+      <h2>Maths Practicals</h2>
+      <p>Download well-organized Maths practical files to prepare with confidence.</p>
+      <a class="download-btn" href="assets/maths-practical/maths.pdf" download>
+        <i class="fas fa-download"></i> Download Practical
+      </a>
+    </div>
+  </section>
+
+  <section id="science">
+    <div class="card">
+      <i class="fas fa-flask fa-2x" style="color:#4facfe;margin-bottom:1rem;"></i>
+      <h2>Science Practicals</h2>
+      <p>Access Science practicals in PDF format and boost your preparation.</p>
+      <a class="download-btn" href="assets/science-practical/science.pdf" download>
+        <i class="fas fa-download"></i> Download Practical
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <P><i class="fa-solid fa-code" style="margin:0.5rem;"></i>Devloped By Nishavvvvv</P>
+    <p>©Nishav 2025 All Rights Reserved.</p>
+    <div class="social">
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <nav>
+    <a href="#home" class="active"><i class="fas fa-home"></i></a>
+    <a href="#about"><i class="fa-solid fa-code"></i></a>
+    <a href="#maths"><i class="fa-solid fa-calculator"></i></i></a>
+    <a href="#science"><i class="fa-solid fa-atom"></i></a>
+  </nav>
+
+  <script>
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
