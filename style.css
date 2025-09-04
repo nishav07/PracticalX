@@ -150,6 +150,29 @@
     }
 
 
+    #practical h2{
+      margin-top: 1rem;
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #333;
+      margin-bottom:0rem;
+    }
+
+    #tma h2{
+       margin-top: 1rem;
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #333;
+      margin-bottom:0rem;
+    }
+
+    #border{
+      height: 4px;
+      width: 160px;
+      background: #38f9d7;
+      margin-bottom: 2rem;
+    }
+
     @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -159,3 +182,5 @@
     from { transform: translateY(30px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
     }
+
+
